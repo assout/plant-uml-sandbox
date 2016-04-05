@@ -1,5 +1,4 @@
-/* refs: <http://yohshiy.blog.fc2.com/blog-entry-152.html> */
-/* @startuml{plantuml_seq_sample.png} */
+/' Refs: <http://yohshiy.blog.fc2.com/blog-entry-152.html> '/
 @startuml
 title シーケンス図のサンプル
 hide footbox
