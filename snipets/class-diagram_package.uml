@@ -1,0 +1,9 @@
+@startuml
+
+package test {
+  class classA
+    class classB
+    class classC
+}
+
+@enduml
