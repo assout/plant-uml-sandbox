@@ -1,5 +1,5 @@
-/' Refs: http://yohshiy.blog.fc2.com/blog-entry-154.html '/
 @startuml
+/' Refs: http://yohshiy.blog.fc2.com/blog-entry-154.html '/
 
 ClassA -- "Class B"
 "クラスC" -- "Class\nD" : 関係
