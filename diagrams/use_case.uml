@@ -1,4 +1,5 @@
 @startuml
+
 :Main Admin: as Admin
 (Use the application) as (Use)
 
@@ -14,7 +15,7 @@ note right of (Use)
   be on several lines
 end note
 
-note "テストThis note is connected\nto several objects." as N2
+note "This note is connected\nto several objects." as N2
 (Start) .. N2
 N2 .. (Use)
 

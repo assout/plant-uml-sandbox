@@ -1,7 +1,8 @@
 @startuml
 /' Refs: http://yohshiy.blog.fc2.com/blog-entry-154.html '/
-
+package cloud <<Cloud>> {
 ClassA -- "Class B"
 "クラスC" -- "Class\nD" : 関係
+}
 
 @enduml
