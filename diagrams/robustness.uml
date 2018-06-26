@@ -1,0 +1,11 @@
+@startuml
+/' Refs: [asdf-11: PlanUMLとロバストネス図](http://asdf-11.blogspot.jp/2013/01/planuml.html) '/
+usecase "some usecase" as UC
+actor "some actor" as CO
+boundary boundary1
+control control1
+entity "This is my Entity" as entity1
+
+entity1 --> control1 : test
+entity1 --> boundary1 : test2
+@enduml
